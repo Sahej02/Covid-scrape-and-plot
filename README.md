@@ -35,6 +35,9 @@ A sample table, updated as of 28/03/2020 05:45 PM.
 | 11 | 28.03.2020 at 09:30 AM |  826 |   47 |           79 |     19 |       971 |
 | 12 | 28.03.2020 at 05:45 PM |  862 |   47 |           80 |     19 |      1008 |
 
+
+### Plotting
+
 A sample plot using the above data:
 
 ![alt text](https://github.com/Sahej02/scrape-and-plot-covid19/blob/master/sample.png "Sample Plot")
