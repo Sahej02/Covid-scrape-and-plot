@@ -5,7 +5,7 @@ Figures are scraped periodically from the offical website of <a href = "https://
 
 ### Collected Data
 
-The dataframe has the following columns:
+The recorded dataframe has the following columns:
 
 * Time
 * Total confirmed Indian National cases (IN)
@@ -14,7 +14,9 @@ The dataframe has the following columns:
 * Number of Deaths
 * The total figure (often reported in the news)
 
-The following is a sample table, updated as of 28/03/2020 05:45 PM.
+#### Samples
+
+A sample table, updated as of 28/03/2020 05:45 PM.
 
 
 |    | Time                   |   IN |   FN |   Cured/Discharged/Migrated |   Dead |   "Total" |
@@ -32,3 +34,5 @@ The following is a sample table, updated as of 28/03/2020 05:45 PM.
 | 10 | 27.03.2020 at 09:15 AM |  677 |   47 |           67 |     17 |       808 |
 | 11 | 28.03.2020 at 09:30 AM |  826 |   47 |           79 |     19 |       971 |
 | 12 | 28.03.2020 at 05:45 PM |  862 |   47 |           80 |     19 |      1008 |
+
+A sample plot using the above data:
