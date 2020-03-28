@@ -7,12 +7,12 @@ Figures are scraped from the offical website of <a href = "https://www.mohfw.gov
 
 The dataframe has the following columns:
 
-	* Time
-	* Total confirmed Indian National cases
-	* Total confirmed Foreign National cases
-	* Cured/Discharged/Migrated
-	* Number of Deaths
-	* The total figure (often reported by news sites)
+* Time
+* Total confirmed Indian National cases
+* Total confirmed Foreign National cases
+* Cured/Discharged/Migrated
+* Number of Deaths
+* The total figure (often reported by news sites)
 
 |    | Time                   |   IN |   FN |   Cured/Discharged/Migrated |   Dead |   "Total" |
 |---:|:-----------------------|-----:|-----:|-------------:|-------:|----------:|
