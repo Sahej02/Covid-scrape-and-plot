@@ -1,18 +1,21 @@
 # scrape-and-plot-covid19
 This repository scrapes figures of covid-19 cases in India, records them in a dataframe, and plots the data.
 
-Figures are scraped from the offical website of <a href = "https://www.mohfw.gov.in/">Ministry of Health and Family Welfare | GOI </a>
+Figures are scraped periodically from the offical website of <a href = "https://www.mohfw.gov.in/">Ministry of Health and Family Welfare | GOI </a>
 
 ### Collected Data
 
 The dataframe has the following columns:
 
 * Time
-* Total confirmed Indian National cases
-* Total confirmed Foreign National cases
+* Total confirmed Indian National cases (IN)
+* Total confirmed Foreign National cases (FN)
 * Cured/Discharged/Migrated
 * Number of Deaths
-* The total figure (often reported by news sites)
+* The total figure (often reported in the news)
+
+The following is a sample table, updated as of 28/03/2020 05:45 PM.
+
 
 |    | Time                   |   IN |   FN |   Cured/Discharged/Migrated |   Dead |   "Total" |
 |---:|:-----------------------|-----:|-----:|-------------:|-------:|----------:|
