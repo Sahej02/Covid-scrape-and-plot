@@ -14,7 +14,7 @@ The recorded dataframe has the following columns:
 * Number of Deaths
 * The total figure (often reported in the news)
 
-#### Samples
+### Samples
 
 A sample table, updated as of 28/03/2020 05:45 PM.
 
@@ -36,3 +36,6 @@ A sample table, updated as of 28/03/2020 05:45 PM.
 | 12 | 28.03.2020 at 05:45 PM |  862 |   47 |           80 |     19 |      1008 |
 
 A sample plot using the above data:
+
+![alt text](https://github.com/Sahej02/scrape-and-plot-covid19/blob/master/sample.png "Sample Plot")
+
