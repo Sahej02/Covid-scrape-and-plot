@@ -21,11 +21,5 @@ dates = df['Time']
 dtimes = dt(dates)
 
 final_dates = mpdt.date2num(dtimes)
-plt.xlabel("Time")
-plt.ylabel("Number of Cases")
-plt.title("Cases v Time")
-plt.plot_date(final_dates, df['IN'], '-', label = "Indian Nationals")
-plt.plot_date(final_dates, df['"Total"'], '-', label = "Total")
-plt.legend()
-plt.grid(which = 'both')
+plt.plot_date(final_dates, df['Confirmed'], '-')
 plt.show()

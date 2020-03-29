@@ -20,16 +20,16 @@ finally:
 	num = para.find_all('tr')[ind].find_all('td')[1].text
 	num = re.search(r"\d+", num).group(0)
 
-	fn = para.find_all('tr')[ind].find_all('td')[2].text
-	fn = re.search(r"\d+", fn).group(0)
+	# fn = para.find_all('tr')[ind].find_all('td')[2].text
+	# fn = re.search(r"\d+", fn).group(0)
 
-	cured = para.find_all('tr')[ind].find_all('td')[3].text
+	cured = para.find_all('tr')[ind].find_all('td')[2].text
 	cured = re.search(r"\d+", cured).group(0)
 
-	death = para.find_all('tr')[ind].find_all('td')[4].text
+	death = para.find_all('tr')[ind].find_all('td')[3].text
 	death = re.search(r"\d+", death).group(0)
 
-	finsum = int(num) + int(fn) + int(cured) + int(death)
+	finsum = int(num) + int(cured) + int(death) #+ int(fn)
 
 	with open("covid_data.csv",'a') as file_1:
-	    file_1.write(time+","+num+","+fn+","+cured+","+death+ "," + str(finsum) +"\n")
+	    file_1.write(time+","+num+","+cured+","+death+ "," + str(finsum) +"\n")
