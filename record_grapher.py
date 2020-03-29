@@ -21,5 +21,10 @@ dates = df['Time']
 dtimes = dt(dates)
 
 final_dates = mpdt.date2num(dtimes)
-plt.plot_date(final_dates, df['Confirmed'], '-')
+plt.title("Cases v Time")
+plt.xlabel("Time")
+plt.ylabel("Number of Cases")
+plt.plot_date(final_dates, df['Confirmed'], '-', label = "Confirmed")
+plt.plot_date(final_dates, df['"Total"'], '-', label = '"Total"')
+plt.legend()
 plt.show()
