@@ -43,5 +43,5 @@ A sample table, updated as of 29/03/2020 07:30 PM.
 
 A sample plot using the above data:
 
-![alt text](https://github.com/Sahej02/scrape-and-plot-covid19/blob/master/newsample.png"Sample Plot")
+![alt text](https://github.com/Sahej02/scrape-and-plot-covid19/blob/master/newsample.png "Sample Plot")
 
